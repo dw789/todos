@@ -10,6 +10,7 @@ FastClick.attach(document.body);
 Vue.config.productionTip = false;
 router.afterEach(() => {
   window.scrollTo(0, 0);
+
 })
 
 new Vue({
